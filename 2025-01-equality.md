@@ -86,6 +86,7 @@ It is not hard to see that (1) if $$a=b$$, then of course $$x=y$$ (always); and 
 
 This is amazing! And what's better, this also shows the upper bound of the previous theorem ($$R^{priv}_{1/3}(\text{EQ}_n) = O(\log n)$$ immediaely, via a jewel of a result know as Newman's Theorem:
 > __Theorem__(Newman's Theorem). For any $f$, $`R^{priv}_{1/3}(f) \leq R^{pub}_{1/3}(f) + O(\log n)`$.
+
 This theorem is **amazing**. Even better, it is conceptually very simple, and can generalize beyond communication complexity: the idea is to show that "well, actually, Alice and Bob can always transform a public-coin protocol (using an arbitrary amount of shared random bits) into one that that just picks the random string $$r$$ uniformly at random _among only $`T=O(n)`$ fixed options_." Which is great, because now **a private-coin protocol can simulate the public-coin one** by making Alice to pick $r$ at random by herself, and tell Bob which of the $T$ options it has picked... which only takes $$\log T = O(\log n)$$ bits of communication!
 
 # Concluding remarks
