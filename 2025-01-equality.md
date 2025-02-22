@@ -78,6 +78,7 @@ Here is the basic idea:
 + Alice and Bob use the lava lamps to agree on a uniformly random string $$r\in\\{0,1\\}^n$$.
 + They compute respectively the bits $x = \langle a, r\rangle = \sum_{i=1} a_i r_i \mod 2$ and $y = \langle b, r\rangle = \sum_{i=1} b_i r_i \mod 2$
 + By waving 👋 (or not), Alice learns $$y$$, Bob learns $$x$$, and they both say "equal!" iff $$x=y$$
+  
 _(One could argue this is two bits of communication, one from Alice to Bob and one from Bob to Alice. Well, this is just so that both know the answer: if we just want Bob to know the answer, then only Alice needs to send $`x`$ to him)_
 
 It is not hard to see that (1) if $$a=b$$, then of course $$x=y$$ (always); and that if $$a\neq b$$, then they differ in at least _one_ bit, say the $$i$$-th and that contribution $$r_i a_i$$ vs. $$b_i r_i$$ to the sum modulo 2 will make $$x \neq y$$ will probability $$1/2$$ over the randomness of $$r$$.
