@@ -57,6 +57,8 @@ As [≈21% of you answered at the time I write this](https://bsky.app/profile/cc
 
 Thanks to the lava lamp, that is...
 
+Maybe worth unpacking what's not said here: 50% might seem trivial (after all, Alice could just choose an answer at random, send that bit to Bob, without looking at her input at all. That completely random answer be correct with probability $1/2$). _So what's the big deal?_ Well, the guarantee here is a _one-sided error_: if $a=b$ then Alice and Bob will output the correct answer with probability __one__. If $`a\neq b`$, then they'll be correct with probability $1/2$. This is a much stronger guarantee, and definitely not a trivial one!
+
 ## How do we do that?
 Let's first consider what happens without randomness 🎲 at all: no lava lamp, first, and no randomness for Alice and Bob either. If they must act deterministically and succeed no matter what $$a,b$$ are, then there's basically nothing they can do unless they communicate $$\Omega(n)$$ bits -- basically their whole input. Put differentially, with only one bit of communciation, Deterministic-Alice and Deterministic-Bob are screwed, and go to jail.
 
