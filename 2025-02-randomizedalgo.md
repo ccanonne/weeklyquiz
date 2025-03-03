@@ -40,7 +40,7 @@ Uhoh. 🥒
 
 ## What are the answers?
 
-The **first question** was _very_ tricky, and Carol and Dave were not the only ones to be fooled... at the time I write this, [only 13% of you got it right](https://bsky.app/profile/ccanonne.bsky.social/post/3lidokfl6tq2n)! A randomized algorithm could very well be consistent, and always give the same answer: an example you might have seen is Randomized QuickSort, which sorts an array (by randomly choosing a pivot for QuickSort). It's always going to return the sorted array, and... there aren't that many distinct options for what that is!
+The **first question** was _very_ tricky, and Carol and Dave were not the only ones to be fooled... at the time I write this, [only 13% of you got it right](https://bsky.app/profile/ccanonne.bsky.social/post/3liw6ibt26s2v)! A randomized algorithm could very well be consistent, and always give the same answer: an example you might have seen is Randomized QuickSort, which sorts an array (by randomly choosing a pivot for QuickSort). It's always going to return the sorted array, and... there aren't that many distinct options for what that is!
 
 A randomized algorithm also could also always have the same runtime on a given input (or even on *all* inputs). The [Fisher–Yates shuffle](https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle), an algorithm to generate a uniformly random permutation, is a non-trivial example you might have seen: it always takes the same number of steps.
 
