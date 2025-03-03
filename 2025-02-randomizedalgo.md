@@ -52,7 +52,7 @@ Equivalently, a randomized algorithm is a *probability distribution over determi
 - Pick the random seed R at random; 🎲
 - Run the algorithm Aᴿ on x
 
-This "distribution over deterministic algorithms" is quite useful, incidentally, especially when you start looking at specific models of computations (e.g., randomized decision trees), or at things like [Yao's Principle](https://en.wikipedia.org/wiki/Yao%27s_principle).
+This "distribution over deterministic algorithms" view is quite useful, incidentally, especially when you start looking at specific models of computations (e.g., randomized decision trees), or at things like [Yao's Principle](https://en.wikipedia.org/wiki/Yao%27s_principle).
 
 The **second question**... [63.6% of you answered it correctly](https://bsky.app/profile/ccanonne.bsky.social/post/3liw7343dso2n)! A 🎰 Las Vegas algorithm is _always correct_, but with a random runtime. Specifically, it has a *finite* expected runtime, but that could be arbitrarily large: that being said, it never makes a mistake. (It might just be very slow, sometimes.) An example? Randomized QuickSort mentioned above! It _always_ sorts the input array correctly. In the _worst_ case, if really you're incredibly unlucky with the choice of the random bits it's using, it may take time O(n²): but its *expected* runtime, on every input array, is O(n log n).
 
