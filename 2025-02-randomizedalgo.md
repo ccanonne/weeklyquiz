@@ -1,6 +1,6 @@
 # Quiz 2: Carol and Dave have a random fight
 
-_See the [Quiz on BlueSky]()._
+_See the [Quiz on BlueSky](https://bsky.app/profile/ccanonne.bsky.social/post/3liw6mdzbu22b)._
 
 ## Backstory
 
