@@ -68,6 +68,7 @@ The *converse is not (known to be) true, however* (for people following the nice
 - Run A until you get a solution y: time T
 - Check if the solution is correct: time V
 - If so, success 🎉; if not, go back to the first step and repeat
+  
 If A is correct with probability 9/10, then one can show that the expected number of repetitions until with get a correct solution is O(1): it's the sum of a geometric series. So the overall running time is O(T+V), which is great if, say, V=O(T), or even O(1)! 🍰
 
 Unfortunately, V is not necessarily small, so that doesn't give us a general-purpose conversion in this direction... Life, not unlike coconuts, can be hard. 🥥
